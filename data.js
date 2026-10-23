@@ -299,7 +299,7 @@ window.PORTFOLIO = {
       "items": [
         {
           "name": "LUAU",
-          "value": 95
+          "value": 78
         },
         {
           "name": "ROJO · GIT",
@@ -307,11 +307,11 @@ window.PORTFOLIO = {
         },
         {
           "name": "NETWORKING · REMOTES",
-          "value": 88
+          "value": 70
         },
         {
           "name": "DATASTORES · MEMORYSTORE",
-          "value": 82
+          "value": 100
         }
       ]
     },
@@ -320,19 +320,19 @@ window.PORTFOLIO = {
       "items": [
         {
           "name": "COMBAT",
-          "value": 90
+          "value": 100
         },
         {
           "name": "ENEMY AI",
-          "value": 84
+          "value": 85
         },
         {
           "name": "PROGRESSION · ECONOMY",
-          "value": 80
+          "value": 100
         },
         {
           "name": "ANTI-CHEAT",
-          "value": 76
+          "value": 57
         }
       ]
     },
@@ -345,11 +345,11 @@ window.PORTFOLIO = {
         },
         {
           "name": "BLENDER",
-          "value": 62
+          "value": 100
         },
         {
           "name": "VS CODE",
-          "value": 85
+          "value": 94
         }
       ]
     }
