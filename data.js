@@ -38,8 +38,7 @@ window.PORTFOLIO = {
       }
     ],
     "bio": [
-      "I build games on Roblox, mostly Luau-heavy systems: combat, AI, progression, and the tools that hold them together.",
-      "Replace this with your own story. When you started, what you love making, and what you're working on now."
+      "I build games on Roblox, mostly Luau-heavy systems: combat, AI, progression, and the tools that hold them together, as well as making models, textures, and monsters for said games."
     ]
   },
   "projects": [
