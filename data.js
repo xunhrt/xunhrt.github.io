@@ -314,15 +314,15 @@ window.PORTFOLIO = {
       "gallery": [
         {
           "src": "assets/anomalous-airport/screenshot-2026-10-23-114705.png",
-          "caption": "Screenshot 2026 10 23 114705"
+          "caption": "Lobby"
         },
         {
           "src": "assets/anomalous-airport/screenshot-2026-10-23-114820.png",
-          "caption": "Screenshot 2026 10 23 114820"
+          "caption": "Gameplay #1"
         },
         {
           "src": "assets/anomalous-airport/screenshot-2026-10-23-114811.png",
-          "caption": "Screenshot 2026 10 23 114811"
+          "caption": "Gameplay #2"
         }
       ]
     },
@@ -386,10 +386,6 @@ window.PORTFOLIO = {
         {
           "name": "DATASTORES · MEMORYSTORE",
           "value": 78
-        },
-        {
-          "name": "3D Modeling",
-          "value": 97
         }
       ]
     },
