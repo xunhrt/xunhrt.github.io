@@ -80,8 +80,7 @@ window.PORTFOLIO = {
       ],
       "summary": "A collection of melee weapons modelled and textured for Roblox: greatswords, katanas, axes, daggers and polearms.",
       "details": [
-        "Placeholder: say what these were made for (e.g. Solune's weapon classes).",
-        "Placeholder: your workflow, poly budget, texturing approach."
+        "Weapon models, Mostly for games that needed assets."
       ],
       "links": [],
       "image": "",
@@ -187,8 +186,7 @@ window.PORTFOLIO = {
       ],
       "summary": "Coats, jackets, capes and boots modelled in Blender to fit the Roblox character rig.",
       "details": [
-        "Placeholder: say what these were made for and how they're worn in-game.",
-        "Placeholder: your workflow, e.g. sculpted folds, rigging, cage fitting."
+        "Armor and clothing"
       ],
       "links": [],
       "image": "",
@@ -227,8 +225,7 @@ window.PORTFOLIO = {
       ],
       "summary": "Enemy and creature models built for Roblox, ready to rig and animate.",
       "details": [
-        "Placeholder: what game these are from and how they fight.",
-        "Placeholder: your workflow, e.g. sculpting, retopology, rigging, animation."
+        "I have more however, Those arent up-to my standards."
       ],
       "links": [],
       "image": "",
