@@ -385,7 +385,11 @@ window.PORTFOLIO = {
         },
         {
           "name": "DATASTORES · MEMORYSTORE",
-          "value": 100
+          "value": 78
+        },
+        {
+          "name": "3D Modeling",
+          "value": 97
         }
       ]
     },
