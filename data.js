@@ -87,27 +87,33 @@ window.PORTFOLIO = {
       "gallery": [
         {
           "src": "assets/weapons/01.png",
-          "caption": "Dark Greatsword"
+          "caption": "Dark Greatsword",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/02.png",
-          "caption": "Battle Axe"
+          "caption": "Battle Axe",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/03.png",
-          "caption": "Longsword"
+          "caption": "Longsword",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/05.png",
-          "caption": "Naginata"
+          "caption": "Naginata",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/06.webp",
-          "caption": "Shusui"
+          "caption": "Shusui",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/04.webp",
-          "caption": "Obsidian Dagger"
+          "caption": "Obsidian Dagger",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/07.png",
@@ -115,19 +121,23 @@ window.PORTFOLIO = {
         },
         {
           "src": "assets/weapons/08.png",
-          "caption": "Moonveil Dagger"
+          "caption": "Moonveil Dagger",
+          "year": "2024"
         },
         {
           "src": "assets/weapons/09.webp",
-          "caption": "Wakazashi"
+          "caption": "Wakazashi",
+          "year": "2024"
         },
         {
           "src": "assets/weapons/10.png",
-          "caption": "Odachi"
+          "caption": "Odachi",
+          "year": "2024"
         },
         {
           "src": "assets/weapons/11.webp",
-          "caption": "Elden Ring GS"
+          "caption": "Elden Ring GS",
+          "year": "2024"
         },
         {
           "src": "assets/weapons/12.png",
@@ -135,7 +145,8 @@ window.PORTFOLIO = {
         },
         {
           "src": "assets/weapons/13.png",
-          "caption": "Training Sword"
+          "caption": "Training Sword",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/14.png",
