@@ -139,7 +139,7 @@ window.PORTFOLIO = {
         },
         {
           "src": "assets/weapons/14.png",
-          "caption": "Yin & Yang Blades",
+          "caption": "Kanshu and byakuya",
           "year": "2023"
         },
         {
@@ -149,27 +149,27 @@ window.PORTFOLIO = {
         },
         {
           "src": "assets/weapons/16.png",
-          "caption": "Crimson Fang",
+          "caption": "Crimson GS",
           "year": "2023"
         },
         {
           "src": "assets/weapons/17.png",
-          "caption": "Abyssal Blade",
+          "caption": "Sungs Dagger",
           "year": "2023"
         },
         {
           "src": "assets/weapons/18.png",
-          "caption": "Notched Machete",
+          "caption": "Lost Vayne",
           "year": "2023"
         },
         {
           "src": "assets/weapons/19.png",
-          "caption": "Twin-Prong Sword",
+          "caption": "Inverted Spear Of Heaven",
           "year": "2023"
         },
         {
           "src": "assets/weapons/20.png",
-          "caption": "Shadow Blades",
+          "caption": "Zangetsu",
           "year": "2023"
         }
       ]
