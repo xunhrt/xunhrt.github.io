@@ -295,7 +295,7 @@ window.PORTFOLIO = {
       "gallery": [
         {
           "src": "assets/steal-a-cat/screenshot-2026-10-23-115015.png",
-          "caption": "Screenshot 2026 10 23 115015"
+          "caption": "Map #1"
         }
       ]
     },
@@ -354,15 +354,15 @@ window.PORTFOLIO = {
       "gallery": [
         {
           "src": "assets/ai-revolution-inc/screenshot-2026-10-23-115224.png",
-          "caption": "Screenshot 2026 10 23 115224"
+          "caption": "Menu"
         },
         {
           "src": "assets/ai-revolution-inc/screenshot-2026-10-23-115236.png",
-          "caption": "Screenshot 2026 10 23 115236"
+          "caption": "Gameplay #1"
         },
         {
           "src": "assets/ai-revolution-inc/screenshot-2026-10-23-115257.png",
-          "caption": "Screenshot 2026 10 23 115257"
+          "caption": "Skill Tree"
         }
       ]
     }
