@@ -33,6 +33,7 @@
   const card = () => `
     <div class="card">
       <div class="card-frame">
+        ${P.cardBackground && !P.portrait ? `<img class="card-bg" src="${esc(P.cardBackground)}" alt="">` : ""}
         ${P.portrait ? `<img src="${esc(P.portrait)}" alt="${esc(P.name)}">` : `<div class="card-initial">${esc(initial)}</div>`}
       </div>
       <div class="card-outline"></div>

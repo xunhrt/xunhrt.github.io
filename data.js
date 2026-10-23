@@ -9,6 +9,8 @@ window.PORTFOLIO = {
   tagline: "Roblox systems, combat, and worlds people get lost in.",
   // Optional: path to a portrait/avatar image (e.g. "me.png"). Leave "" for the stylised initial.
   portrait: "",
+  // Optional: photo shown behind the big initial on the card. Leave "" for a plain card.
+  cardBackground: "assets/card-bg.png",
 
   profile: {
     arcana: "THE FOOL",            // flavour label, Persona-style
