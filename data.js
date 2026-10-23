@@ -53,18 +53,13 @@ window.PORTFOLIO = {
         "AI",
         "DataStores"
       ],
-      "summary": "A multi-place action RPG with a death-and-consequence loop, guilds, races, enemy AI and a full mod toolkit.",
+      "summary": "A multi-place action RPG with a death-and-consequence loop, guilds, races, enemy AI ",
       "details": [
         "Ember / Purgatory system: dying drains a stat; hit zero and you choose to wipe or return.",
         "Enemy AI with guard and pursuer behaviours, ally rescue, and Blender-rigged creature brains.",
         "Shared code synced across places with Rojo + Git, plus a server-authoritative anti-cheat layer."
       ],
-      "links": [
-        {
-          "label": "PLAY",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "image": "",
       "gallery": []
     },
