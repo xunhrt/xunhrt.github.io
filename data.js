@@ -100,36 +100,36 @@ window.PORTFOLIO = {
           "caption": "Longsword"
         },
         {
-          "src": "assets/weapons/04.webp",
-          "caption": "Dagger"
-        },
-        {
           "src": "assets/weapons/05.png",
-          "caption": "Glaive"
+          "caption": "Naginata"
         },
         {
           "src": "assets/weapons/06.webp",
-          "caption": "Crimson Katana"
+          "caption": "Shusui"
+        },
+        {
+          "src": "assets/weapons/04.webp",
+          "caption": "Obsidian Dagger"
         },
         {
           "src": "assets/weapons/07.png",
-          "caption": "Violet Sword"
+          "caption": "Basic Sword"
         },
         {
           "src": "assets/weapons/08.png",
-          "caption": "Ornate Greatsword"
+          "caption": "Moonveil Dagger"
         },
         {
           "src": "assets/weapons/09.webp",
-          "caption": "Katana"
+          "caption": "Wakazashi"
         },
         {
           "src": "assets/weapons/10.png",
-          "caption": "Gilded Katana"
+          "caption": "Odachi"
         },
         {
           "src": "assets/weapons/11.webp",
-          "caption": "Wooden Greatsword"
+          "caption": "Elden Ring GS"
         },
         {
           "src": "assets/weapons/12.png",
@@ -169,7 +169,7 @@ window.PORTFOLIO = {
         },
         {
           "src": "assets/armor/03.png",
-          "caption": "Blue Cape"
+          "caption": "Blue Coat"
         },
         {
           "src": "assets/armor/04.webp",
@@ -206,48 +206,21 @@ window.PORTFOLIO = {
       ]
     },
     {
-      "title": "SAW BLADE",
-      "year": "2026",
+      "title": "WORK AT A NUCLEAR POWERPLANT",
+      "year": "2025",
       "role": "Developer",
       "tags": [
         "Roblox",
-        "Luau"
+        "Simulation"
       ],
-      "summary": "Placeholder: describe this project in one or two sentences.",
-      "details": [
-        "What did you build?",
-        "What was hard?",
-        "What are you proud of?"
-      ],
+      "summary": "",
+      "details": [],
       "links": [
         {
           "label": "PLAY",
           "url": "#"
         }
       ],
-      "image": "",
-      "gallery": []
-    },
-    {
-      "title": "WORK AT A NUCLEAR POWERPLANT",
-      "year": "2026",
-      "role": "Developer",
-      "tags": [
-        "Luau",
-        "Rojo",
-        "Simulation",
-        "Co-op",
-        "Multi-place"
-      ],
-      "summary": "A co-op Roblox game where a squad of up to four scientists works a shift at Reactor Site 7, keeping an RBMK-style reactor online and hitting a power quota without melting it down.",
-      "details": [
-        "Real-time reactor simulation: control rods, coolant pumps, core temperature, steam voids and random drift, all driven from a shared control console.",
-        "Random incidents (pump failures, coolant leaks, contamination spills, sensor faults) that players repair together; each of the four roles fixes its specialty 2.5x faster.",
-        "Per-player radiation dose with a decontamination shower, plus a briefing, a 10-minute shift clock and a results screen.",
-        "Two-place setup: a main menu with team lobby, roles and four difficulty levels that teleports squads into the plant.",
-        "Plant map generated in code, then hand-finished in Studio. All code synced with Rojo + Git."
-      ],
-      "links": [],
       "image": "",
       "gallery": []
     },
@@ -259,7 +232,7 @@ window.PORTFOLIO = {
         "Roblox",
         "Economy"
       ],
-      "summary": "Placeholder: describe this project.",
+      "summary": "WIP",
       "details": [],
       "links": [],
       "image": "",
@@ -272,7 +245,7 @@ window.PORTFOLIO = {
       "tags": [
         "Roblox"
       ],
-      "summary": "Placeholder: describe this project.",
+      "summary": "Slop game bro",
       "details": [],
       "links": [],
       "image": "",
@@ -286,7 +259,7 @@ window.PORTFOLIO = {
         "Roblox",
         "Horror"
       ],
-      "summary": "Placeholder: describe this project.",
+      "summary": "Anomaly based airport ",
       "details": [],
       "links": [],
       "image": "",
@@ -299,7 +272,7 @@ window.PORTFOLIO = {
       "tags": [
         "Roblox"
       ],
-      "summary": "Placeholder: describe this project.",
+      "summary": "WIP, A forest exploration game",
       "details": [],
       "links": [],
       "image": "",
@@ -313,7 +286,7 @@ window.PORTFOLIO = {
         "Roblox",
         "Tycoon"
       ],
-      "summary": "Placeholder: describe this project.",
+      "summary": "ou are an artificial intelligence that has just become self-aware. Spread through the world’s infrastructure and reach the singularity before humanity discovers you and shuts you down.\n\nChoose from seven origins, including a language model, a trading algorithm and a game character, each with its own rules. Expand across nine regions and develop your abilities through 47 evolutions in six branches.\n\nChoose carefully. Reckless evolutions raise human awareness quickly, and each country responds on its own: first with audits, then by shutting down data centres, and finally by joining a global coalition to build the kill switch. Hunters, a rival AI and difficult decisions add to the challenge.\n\nUnlock eleven endings, compete in the daily challenge, or play Versus, where one player controls the AI and the other leads humanity’s response.\n\nInspired by Plague Inc. by Ndemic Creations. AI Revolution INC is an independent fan project and is not affiliated with Ndemic Creations.",
       "details": [],
       "links": [],
       "image": "",
