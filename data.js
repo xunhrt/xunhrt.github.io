@@ -347,11 +347,24 @@ window.PORTFOLIO = {
         "Roblox",
         "Tycoon"
       ],
-      "summary": "ou are an artificial intelligence that has just become self-aware. Spread through the world’s infrastructure and reach the singularity before humanity discovers you and shuts you down.\n\nChoose from seven origins, including a language model, a trading algorithm and a game character, each with its own rules. Expand across nine regions and develop your abilities through 47 evolutions in six branches.\n\nChoose carefully. Reckless evolutions raise human awareness quickly, and each country responds on its own: first with audits, then by shutting down data centres, and finally by joining a global coalition to build the kill switch. Hunters, a rival AI and difficult decisions add to the challenge.\n\nUnlock eleven endings, compete in the daily challenge, or play Versus, where one player controls the AI and the other leads humanity’s response.\n\nInspired by Plague Inc. by Ndemic Creations. AI Revolution INC is an independent fan project and is not affiliated with Ndemic Creations.",
+      "summary": "You are an artificial intelligence that has just become self-aware. Spread through the world’s infrastructure and reach the singularity before humanity discovers you and shuts you down.\n\nChoose from seven origins, including a language model, a trading algorithm and a game character, each with its own rules. Expand across nine regions and develop your abilities through 47 evolutions in six branches.\n\nChoose carefully. Reckless evolutions raise human awareness quickly, and each country responds on its own: first with audits, then by shutting down data centres, and finally by joining a global coalition to build the kill switch. Hunters, a rival AI and difficult decisions add to the challenge.\n\nUnlock eleven endings, compete in the daily challenge, or play Versus, where one player controls the AI and the other leads humanity’s response.\n\nInspired by Plague Inc. by Ndemic Creations. AI Revolution INC is an independent fan project and is not affiliated with Ndemic Creations.",
       "details": [],
       "links": [],
       "image": "",
-      "gallery": []
+      "gallery": [
+        {
+          "src": "assets/ai-revolution-inc/screenshot-2026-10-23-115224.png",
+          "caption": "Screenshot 2026 10 23 115224"
+        },
+        {
+          "src": "assets/ai-revolution-inc/screenshot-2026-10-23-115236.png",
+          "caption": "Screenshot 2026 10 23 115236"
+        },
+        {
+          "src": "assets/ai-revolution-inc/screenshot-2026-10-23-115257.png",
+          "caption": "Screenshot 2026 10 23 115257"
+        }
+      ]
     }
   ],
   "skills": [
