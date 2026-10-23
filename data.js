@@ -356,23 +356,13 @@ window.PORTFOLIO = {
   "contact": [
     {
       "label": "DISCORD",
-      "value": "yourname",
+      "value": "perkkn",
       "url": ""
     },
     {
       "label": "ROBLOX",
-      "value": "roblox.com/users/…",
-      "url": "#"
-    },
-    {
-      "label": "GITHUB",
-      "value": "github.com/xunhrt",
-      "url": "https://github.com/xunhrt"
-    },
-    {
-      "label": "EMAIL",
-      "value": "you@example.com",
-      "url": "mailto:you@example.com"
+      "value": "",
+      "url": "https://www.roblox.com/users/1652191776/profile"
     }
   ]
 };
