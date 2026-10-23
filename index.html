@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- background layers -->
+  <div class="bg">
+    <div class="bg-slab"></div>
+    <div class="bg-halftone"></div>
+    <div class="bg-word" id="bgWord">PORTFOLIO</div>
+    <div class="bg-scan"></div>
+  </div>
+
+  <header class="hud-top">
+    <div class="tag tag-dark" id="hudName">PORTFOLIO // NAME</div>
+    <div class="clock" id="clock">
+      <span class="clock-date" id="clockDate">10/23</span>
+      <span class="clock-day" id="clockDay">FRI</span>
+      <span class="clock-time" id="clockTime">MORNING</span>
+    </div>
+    <div class="tag tag-light" id="hudTitle">GAME DEVELOPER</div>
+  </header>
+
+  <main id="app">
+    <section class="screen" data-screen="menu" id="screen-menu"></section>
+    <section class="screen" data-screen="profile" id="screen-profile"></section>
+    <section class="screen" data-screen="projects" id="screen-projects"></section>
+    <section class="screen" data-screen="skills" id="screen-skills"></section>
+    <section class="screen" data-screen="contact" id="screen-contact"></section>
+  </main>
+
+  <footer class="hud-bottom" id="keys">
+    <span class="key"><kbd>↑↓</kbd>SELECT</span>
+    <span class="key"><kbd>ENTER</kbd>CONFIRM</span>
+    <span class="key" id="backKey"><kbd>ESC</kbd>BACK</span>
+  </footer>
+
+  <div class="wipe" id="wipe"><div></div><div></div><div></div></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
