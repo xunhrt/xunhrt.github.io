@@ -9,7 +9,7 @@ window.PORTFOLIO = {
   "cardBackground": "assets/card-bg.png",
   "profile": {
     "arcana": "THE FOOL",
-    "level": 99,
+    "level": 76,
     "stats": [
       {
         "label": "SCRIPTING",
