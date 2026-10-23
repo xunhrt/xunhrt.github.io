@@ -243,7 +243,8 @@ window.PORTFOLIO = {
       "gallery": [
         {
           "src": "assets/monsters/01.png",
-          "caption": "Orc Brute"
+          "caption": "Orc Brute",
+          "year": "2026"
         }
       ]
     },
@@ -291,7 +292,12 @@ window.PORTFOLIO = {
       "details": [],
       "links": [],
       "image": "",
-      "gallery": []
+      "gallery": [
+        {
+          "src": "assets/steal-a-cat/screenshot-2026-10-23-115015.png",
+          "caption": "Screenshot 2026 10 23 115015"
+        }
+      ]
     },
     {
       "title": "ANOMALOUS AIRPORT",
@@ -305,7 +311,20 @@ window.PORTFOLIO = {
       "details": [],
       "links": [],
       "image": "",
-      "gallery": []
+      "gallery": [
+        {
+          "src": "assets/anomalous-airport/screenshot-2026-10-23-114705.png",
+          "caption": "Screenshot 2026 10 23 114705"
+        },
+        {
+          "src": "assets/anomalous-airport/screenshot-2026-10-23-114820.png",
+          "caption": "Screenshot 2026 10 23 114820"
+        },
+        {
+          "src": "assets/anomalous-airport/screenshot-2026-10-23-114811.png",
+          "caption": "Screenshot 2026 10 23 114811"
+        }
+      ]
     },
     {
       "title": "STETLET WOODS",
