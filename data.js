@@ -230,20 +230,24 @@ window.PORTFOLIO = {
     },
     {
       "title": "WORK AT A NUCLEAR POWERPLANT",
-      "year": "2025",
+      "year": "2026",
       "role": "Developer",
       "tags": [
-        "Roblox",
-        "Simulation"
+        "Luau",
+        "Rojo",
+        "Simulation",
+        "Co-op",
+        "Multi-place"
       ],
-      "summary": "Placeholder: describe this project.",
-      "details": [],
-      "links": [
-        {
-          "label": "PLAY",
-          "url": "#"
-        }
+      "summary": "A co-op Roblox game where a squad of up to four scientists works a shift at Reactor Site 7, keeping an RBMK-style reactor online and hitting a power quota without melting it down.",
+      "details": [
+        "Real-time reactor simulation: control rods, coolant pumps, core temperature, steam voids and random drift, all driven from a shared control console.",
+        "Random incidents (pump failures, coolant leaks, contamination spills, sensor faults) that players repair together; each of the four roles fixes its specialty 2.5x faster.",
+        "Per-player radiation dose with a decontamination shower, plus a briefing, a 10-minute shift clock and a results screen.",
+        "Two-place setup: a main menu with team lobby, roles and four difficulty levels that teleports squads into the plant.",
+        "Plant map generated in code, then hand-finished in Studio. All code synced with Rojo + Git."
       ],
+      "links": [],
       "image": "",
       "gallery": []
     },
