@@ -13,28 +13,28 @@ window.PORTFOLIO = {
     "stats": [
       {
         "label": "SCRIPTING",
-        "rank": 5,
-        "word": "GENIUS"
+        "rank": 4,
+        "word": ""
       },
       {
         "label": "SYSTEMS",
-        "rank": 5,
-        "word": "ARCHITECT"
+        "rank": 4,
+        "word": "Systems Engineer"
       },
       {
         "label": "DESIGN",
-        "rank": 4,
-        "word": "VISIONARY"
+        "rank": 2,
+        "word": "Systems Designer"
       },
       {
         "label": "BUILDING",
-        "rank": 3,
-        "word": "SKILLED"
+        "rank": 1,
+        "word": "Builder"
       },
       {
-        "label": "ART",
-        "rank": 2,
-        "word": "LEARNING"
+        "label": "3D Modeling",
+        "rank": 5,
+        "word": "Modeler"
       }
     ],
     "bio": [
