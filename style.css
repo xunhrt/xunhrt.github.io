@@ -371,6 +371,14 @@ main { position: fixed; inset: 0; z-index: 2; }
 .lb-count { font-family: var(--display); font-weight: 400; font-size: 22px; color: var(--sky); }
 .lb-cap { font-weight: 900; font-style: italic; font-size: 22px; letter-spacing: .05em; }
 .lb-cap:empty { display: none; }
+.lb-year { font-family: var(--display); font-style: normal; font-size: 18px; background: var(--sky); color: var(--ink); padding: 0 8px; }
+.lb-year:empty { display: none; }
+.pd-thumb-year {
+  position: absolute; top: 6px; right: 14px;
+  font-family: var(--display); font-style: normal; font-size: 14px;
+  background: var(--sky); color: var(--ink); padding: 0 6px;
+  transform: skewX(var(--skew));
+}
 .lb-nav, .lb-close {
   font-family: var(--ui); font-weight: 900; cursor: pointer; border: 0;
   background: var(--white); color: var(--ink);

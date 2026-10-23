@@ -121,6 +121,7 @@
           <button class="pd-thumb" data-g="${n}" aria-label="${esc(g.caption || `Image ${n + 1}`)}">
             <img src="${esc(g.src)}" alt="${esc(g.caption || "")}" loading="lazy">
             ${g.caption ? `<span>${esc(g.caption)}</span>` : ""}
+            ${g.year ? `<em class="pd-thumb-year">${esc(g.year)}</em>` : ""}
           </button>`).join("")}
         </div>` : ""}
       ${p.links?.length ? `<div class="pd-links">${p.links.map((l) => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ▸</a>`).join("")}</div>` : ""}`;
@@ -214,7 +215,7 @@
   lb.className = "lightbox";
   lb.innerHTML = `
     <button class="lb-nav lb-prev" aria-label="Previous">◀</button>
-    <figure><img alt=""><figcaption><b class="lb-count"></b><span class="lb-cap"></span></figcaption></figure>
+    <figure><img alt=""><figcaption><b class="lb-count"></b><span class="lb-cap"></span><i class="lb-year"></i></figcaption></figure>
     <button class="lb-nav lb-next" aria-label="Next">▶</button>
     <button class="lb-close" aria-label="Close">ESC ✕</button>`;
   document.body.appendChild(lb);
@@ -226,6 +227,7 @@
     $("img", lb).alt = g.caption || "";
     $(".lb-count", lb).textContent = `${String(viewer.i + 1).padStart(2, "0")} / ${String(viewer.list.length).padStart(2, "0")}`;
     $(".lb-cap", lb).textContent = g.caption || "";
+    $(".lb-year", lb).textContent = g.year || "";
     const fig = $("figure", lb);
     fig.classList.remove("pop"); void fig.offsetWidth; fig.classList.add("pop");
   }

@@ -196,6 +196,7 @@
                   <div class="gitem">
                     <div class="thumb" style="background-image:url('${url(g.src)}')"></div>
                     <input type="text" data-path="projects.${i}.gallery.${j}.caption" data-kind="text" value="${esc(g.caption || "")}" placeholder="Caption">
+                    <input type="text" data-path="projects.${i}.gallery.${j}.year" data-kind="text" value="${esc(g.year || "")}" placeholder="Year (optional)">
                     <div class="gbtns">
                       <button data-act="move" data-list="projects.${i}.gallery" data-idx="${j}" data-d="-1" title="Move left">◀</button>
                       <button data-act="move" data-list="projects.${i}.gallery" data-idx="${j}" data-d="1" title="Move right">▶</button>

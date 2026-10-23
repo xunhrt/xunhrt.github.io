@@ -137,6 +137,41 @@ window.PORTFOLIO = {
         {
           "src": "assets/weapons/13.png",
           "caption": "Training Sword"
+        },
+        {
+          "src": "assets/weapons/14.png",
+          "caption": "Yin & Yang Blades",
+          "year": "2023"
+        },
+        {
+          "src": "assets/weapons/15.png",
+          "caption": "Moonlit Scythe",
+          "year": "2023"
+        },
+        {
+          "src": "assets/weapons/16.png",
+          "caption": "Crimson Fang",
+          "year": "2023"
+        },
+        {
+          "src": "assets/weapons/17.png",
+          "caption": "Abyssal Blade",
+          "year": "2023"
+        },
+        {
+          "src": "assets/weapons/18.png",
+          "caption": "Notched Machete",
+          "year": "2023"
+        },
+        {
+          "src": "assets/weapons/19.png",
+          "caption": "Twin-Prong Sword",
+          "year": "2023"
+        },
+        {
+          "src": "assets/weapons/20.png",
+          "caption": "Shadow Blades",
+          "year": "2023"
         }
       ]
     },
