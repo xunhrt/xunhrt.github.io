@@ -3,8 +3,8 @@
 //  site is generated from the object below.
 // ─────────────────────────────────────────────────────────────
 window.PORTFOLIO = {
-  name: "YOUR NAME",
-  handle: "YOURHANDLE",
+  name: "SHAWN",
+  handle: "XUNHRT",
   title: "GAME DEVELOPER",
   tagline: "Roblox systems, combat, and worlds people get lost in.",
   // Optional: path to a portrait/avatar image (e.g. "me.png"). Leave "" for the stylised initial.
@@ -210,7 +210,7 @@ window.PORTFOLIO = {
   contact: [
     { label: "DISCORD", value: "yourname", url: "" },
     { label: "ROBLOX",  value: "roblox.com/users/…", url: "#" },
-    { label: "GITHUB",  value: "github.com/yourname", url: "#" },
+    { label: "GITHUB",  value: "github.com/xunhrt", url: "https://github.com/xunhrt" },
     { label: "EMAIL",   value: "you@example.com", url: "mailto:you@example.com" },
   ],
 };
