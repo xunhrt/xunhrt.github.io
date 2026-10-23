@@ -210,11 +210,11 @@ main { position: fixed; inset: 0; z-index: 2; }
   z-index: 0;
   filter: grayscale(1) contrast(1.15) brightness(.9);
   mix-blend-mode: luminosity;
-  opacity: .75;
+  opacity: .9;
 }
 .card-frame:has(.card-bg)::after {
   content: ""; position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(180deg, rgba(20,70,200,.15), rgba(6,26,92,.55));
+  background: linear-gradient(180deg, transparent 50%, rgba(6,26,92,.6));
 }
 .card-initial { z-index: 2; }
 .card-initial {

@@ -34,7 +34,7 @@
     <div class="card">
       <div class="card-frame">
         ${P.cardBackground && !P.portrait ? `<img class="card-bg" src="${esc(P.cardBackground)}" alt="">` : ""}
-        ${P.portrait ? `<img src="${esc(P.portrait)}" alt="${esc(P.name)}">` : `<div class="card-initial">${esc(initial)}</div>`}
+        ${P.portrait ? `<img src="${esc(P.portrait)}" alt="${esc(P.name)}">` : P.cardBackground ? "" : `<div class="card-initial">${esc(initial)}</div>`}
       </div>
       <div class="card-outline"></div>
       <div class="card-lv">LV<b>${esc(P.profile.level)}</b></div>
