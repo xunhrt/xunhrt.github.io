@@ -40,6 +40,10 @@ def run_git(*args):
     return p.returncode, (p.stdout + p.stderr).strip()
 
 
+def data_version():
+    return str(os.stat(DATA_JS).st_mtime_ns)
+
+
 def safe_name(name):
     base, ext = os.path.splitext(os.path.basename(name))
     base = re.sub(r"[^A-Za-z0-9_-]+", "-", base).strip("-").lower() or "image"
@@ -75,7 +79,7 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/api/ping":
-            return self.reply(200, {"ok": True})
+            return self.reply(200, {"ok": True, "version": data_version()})
         return super().do_GET()
 
     def do_POST(self):
@@ -99,12 +103,16 @@ class Handler(SimpleHTTPRequestHandler):
         data = json.loads(self.read_body(5 * 1024 * 1024))
         if not isinstance(data, dict) or not isinstance(data.get("projects"), list):
             raise ValueError("That doesn't look like portfolio data.")
+        # refuse to overwrite edits made to data.js after this editor page was opened
+        base = self.headers.get("X-Base-Version")
+        if base and base != data_version():
+            return self.reply(409, {"error": "data.js was changed outside this editor since you opened it, so saving would undo those changes.\nCopy anything you just typed, reload this page, then make your change again."})
         text = HEADER + "window.PORTFOLIO = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
         tmp = DATA_JS + ".tmp"
         with open(tmp, "w", encoding="utf-8", newline="\n") as f:
             f.write(text)
         os.replace(tmp, DATA_JS)
-        self.reply(200, {"ok": True})
+        self.reply(200, {"ok": True, "version": data_version()})
 
     def upload(self, q):
         folder = re.sub(r"[^a-z0-9_-]+", "-", (q.get("folder", ["misc"])[0]).lower()).strip("-") or "misc"

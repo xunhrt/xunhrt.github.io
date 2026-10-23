@@ -7,7 +7,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <!-- load style/data/code fresh on every visit so updates show right away (GitHub Pages caches files for 10 min) -->
+  <script>
+    window.__v = Date.now();
+    document.write('<link rel="stylesheet" href="style.css?v=' + __v + '" />');
+  </script>
+  <noscript><link rel="stylesheet" href="style.css" /></noscript>
 </head>
 <body>
   <!-- background layers -->
@@ -44,7 +49,13 @@
 
   <div class="wipe" id="wipe"><div></div><div></div><div></div></div>
 
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script>
+    for (const src of ["data.js", "app.js"]) {
+      const s = document.createElement("script");
+      s.src = src + "?v=" + __v;
+      s.async = false; // keep order: data.js before app.js
+      document.body.appendChild(s);
+    }
+  </script>
 </body>
 </html>

@@ -263,7 +263,14 @@
     if (!r.ok) throw new Error(j.error || "Something went wrong");
     return j;
   }
-  const save = async () => { await api("/api/save", JSON.stringify(D)); setDirty(false); };
+  // version of data.js this page was loaded from; the server refuses saves over newer outside edits
+  let baseVersion = null;
+  const save = async () => {
+    const headers = { "Content-Type": "application/json" };
+    if (baseVersion) headers["X-Base-Version"] = baseVersion;
+    baseVersion = (await api("/api/save", JSON.stringify(D), headers)).version;
+    setDirty(false);
+  };
   const upload = async (file, folder) =>
     (await api(`/api/upload?folder=${encodeURIComponent(folder)}&name=${encodeURIComponent(file.name)}`, file, {})).path;
 
@@ -387,7 +394,10 @@
   });
   addEventListener("beforeunload", (e) => { if (dirty) { e.preventDefault(); e.returnValue = ""; } });
 
-  fetch("/api/ping").then((r) => { if (!r.ok) throw 0; }).catch(() => { $("#offline").hidden = false; });
+  fetch("/api/ping")
+    .then((r) => { if (!r.ok) throw 0; return r.json(); })
+    .then((j) => { baseVersion = j.version; })
+    .catch(() => { $("#offline").hidden = false; });
 
   render();
 })();
