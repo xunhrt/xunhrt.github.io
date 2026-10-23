@@ -250,7 +250,7 @@ window.PORTFOLIO = {
     },
     {
       "title": "WORK AT A NUCLEAR POWERPLANT",
-      "year": "2025",
+      "year": "2026",
       "role": "Developer",
       "tags": [
         "Roblox",
@@ -269,7 +269,7 @@ window.PORTFOLIO = {
     },
     {
       "title": "TRAVELING MERCHANT",
-      "year": "2025",
+      "year": "2026",
       "role": "Developer",
       "tags": [
         "Roblox",
@@ -283,7 +283,7 @@ window.PORTFOLIO = {
     },
     {
       "title": "STEAL A CAT",
-      "year": "2025",
+      "year": "2026",
       "role": "Developer",
       "tags": [
         "Roblox"
@@ -328,7 +328,7 @@ window.PORTFOLIO = {
     },
     {
       "title": "STETLET WOODS",
-      "year": "2024",
+      "year": "2026",
       "role": "Developer",
       "tags": [
         "Roblox"
@@ -341,7 +341,7 @@ window.PORTFOLIO = {
     },
     {
       "title": "AI REVOLUTION INC",
-      "year": "2024",
+      "year": "2026",
       "role": "Developer",
       "tags": [
         "Roblox",
