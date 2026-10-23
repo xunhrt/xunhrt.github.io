@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Portfolio Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,800;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">PORTFOLIO <span>EDITOR</span></div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="profile">PROFILE</button>
+      <button data-tab="projects">PROJECTS</button>
+      <button data-tab="skills">SKILLS</button>
+      <button data-tab="contact">CONTACT</button>
+    </nav>
+    <div class="actions">
+      <span class="dirty" id="dirty">UNSAVED CHANGES</span>
+      <button class="btn ghost" id="previewBtn" title="Save and open your site in a new tab">PREVIEW</button>
+      <button class="btn" id="saveBtn" title="Ctrl+S">SAVE</button>
+      <button class="btn hot" id="publishBtn" title="Save and put it on the live site">PUBLISH</button>
+    </div>
+  </header>
+
+  <div class="offline" id="offline" hidden>
+    The editor isn't connected. Double-click <b>Edit Portfolio.bat</b> in your Portfolio folder to start it, then reload this page.
+  </div>
+
+  <main id="panel"></main>
+
+  <div class="toasts" id="toasts"></div>
+
+  <script src="/data.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>
