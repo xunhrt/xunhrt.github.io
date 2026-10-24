@@ -177,6 +177,11 @@ window.PORTFOLIO = {
           "src": "assets/weapons/20.png",
           "caption": "Zangetsu",
           "year": "2023"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-10-24-125807.png",
+          "caption": "Sun Scythe",
+          "year": "2026"
         }
       ]
     },
