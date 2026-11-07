@@ -92,7 +92,8 @@ window.PORTFOLIO = {
         },
         {
           "src": "assets/weapons/screenshot-2026-11-06-210447.png",
-          "caption": "Kuronami No Yaiba"
+          "caption": "Kuronami No Yaiba",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/screenshot-2026-11-06-195054.png",
@@ -102,6 +103,11 @@ window.PORTFOLIO = {
         {
           "src": "assets/weapons/screenshot-2026-11-06-201900.png",
           "caption": "The other valorant knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-07-015139.png",
+          "caption": "Vine weapon val",
           "year": "2026"
         },
         {
@@ -115,13 +121,33 @@ window.PORTFOLIO = {
           "year": "2026"
         },
         {
-          "src": "assets/weapons/01.png",
-          "caption": "Dark Greatsword",
+          "src": "assets/weapons/screenshot-2026-11-07-012811.png",
+          "caption": "Koi fan",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-07-015507.png",
+          "caption": "Yoru's Comb",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-235710.png",
+          "caption": "Nocturnum Scythe",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-07-003511.png",
+          "caption": "Kogisune",
           "year": "2026"
         },
         {
           "src": "assets/weapons/screenshot-2026-11-06-185201.png",
           "caption": "basic knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/01.png",
+          "caption": "Dark Greatsword",
           "year": "2026"
         },
         {
