@@ -81,8 +81,43 @@ window.PORTFOLIO = {
       "image": "",
       "gallery": [
         {
+          "src": "assets/weapons/screenshot-2026-11-06-184701.png",
+          "caption": "Valorant Fan",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-185450.png",
+          "caption": "That one valorant dagger",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-195054.png",
+          "caption": "That one valorant wand",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-201900.png",
+          "caption": "The other valorant knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-204303.png",
+          "caption": "Cool valorant dragon knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-201840.png",
+          "caption": "That one valorant knife",
+          "year": "2026"
+        },
+        {
           "src": "assets/weapons/01.png",
           "caption": "Dark Greatsword",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-185201.png",
+          "caption": "basic knife",
           "year": "2026"
         },
         {
@@ -115,14 +150,24 @@ window.PORTFOLIO = {
           "caption": "Basic Sword"
         },
         {
-          "src": "assets/weapons/08.png",
-          "caption": "Moonveil Dagger",
-          "year": "2024"
-        },
-        {
           "src": "assets/weapons/09.webp",
           "caption": "Wakazashi",
           "year": "2024"
+        },
+        {
+          "src": "assets/weapons/12.png",
+          "caption": "Morning Star",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/13.png",
+          "caption": "Training Sword",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-10-24-125807.png",
+          "caption": "Sun Scythe",
+          "year": "2026"
         },
         {
           "src": "assets/weapons/10.png",
@@ -135,23 +180,9 @@ window.PORTFOLIO = {
           "year": "2024"
         },
         {
-          "src": "assets/weapons/12.png",
-          "caption": "Morning Star"
-        },
-        {
-          "src": "assets/weapons/13.png",
-          "caption": "Training Sword",
-          "year": "2026"
-        },
-        {
-          "src": "assets/weapons/14.png",
-          "caption": "Kanshu and byakuya",
-          "year": "2023"
-        },
-        {
-          "src": "assets/weapons/15.png",
-          "caption": "Moonlit Scythe",
-          "year": "2023"
+          "src": "assets/weapons/08.png",
+          "caption": "Moonveil Dagger",
+          "year": "2024"
         },
         {
           "src": "assets/weapons/16.png",
@@ -159,13 +190,8 @@ window.PORTFOLIO = {
           "year": "2023"
         },
         {
-          "src": "assets/weapons/17.png",
-          "caption": "Sungs Dagger",
-          "year": "2023"
-        },
-        {
-          "src": "assets/weapons/18.png",
-          "caption": "Lost Vayne",
+          "src": "assets/weapons/14.png",
+          "caption": "Kanshu and byakuya",
           "year": "2023"
         },
         {
@@ -179,44 +205,19 @@ window.PORTFOLIO = {
           "year": "2023"
         },
         {
-          "src": "assets/weapons/screenshot-2026-10-24-125807.png",
-          "caption": "Sun Scythe",
-          "year": "2026"
+          "src": "assets/weapons/17.png",
+          "caption": "Sungs Dagger",
+          "year": "2023"
         },
         {
-          "src": "assets/weapons/screenshot-2026-11-06-184701.png",
-          "caption": "Valorant Fan",
-          "year": "2026"
+          "src": "assets/weapons/15.png",
+          "caption": "Moonlit Scythe",
+          "year": "2023"
         },
         {
-          "src": "assets/weapons/screenshot-2026-11-06-185201.png",
-          "caption": "basic knife",
-          "year": "2026"
-        },
-        {
-          "src": "assets/weapons/screenshot-2026-11-06-185450.png",
-          "caption": "That one valorant dagger",
-          "year": "2026"
-        },
-        {
-          "src": "assets/weapons/screenshot-2026-11-06-195054.png",
-          "caption": "That one valorant wand",
-          "year": "2026"
-        },
-        {
-          "src": "assets/weapons/screenshot-2026-11-06-201840.png",
-          "caption": "That one valorant knife",
-          "year": "2026"
-        },
-        {
-          "src": "assets/weapons/screenshot-2026-11-06-201900.png",
-          "caption": "The other valorant knife",
-          "year": "2026"
-        },
-        {
-          "src": "assets/weapons/screenshot-2026-11-06-204303.png",
-          "caption": "Cool valorant dragon knife",
-          "year": "2026"
+          "src": "assets/weapons/18.png",
+          "caption": "Lost Vayne",
+          "year": "2023"
         }
       ]
     },
