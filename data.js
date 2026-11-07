@@ -182,6 +182,41 @@ window.PORTFOLIO = {
           "src": "assets/weapons/screenshot-2026-10-24-125807.png",
           "caption": "Sun Scythe",
           "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-184701.png",
+          "caption": "Valorant Fan",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-185201.png",
+          "caption": "basic knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-185450.png",
+          "caption": "That one valorant dagger",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-195054.png",
+          "caption": "That one valorant wand",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-201840.png",
+          "caption": "That one valorant knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-201900.png",
+          "caption": "The other valorant knife",
+          "year": "2026"
+        },
+        {
+          "src": "assets/weapons/screenshot-2026-11-06-204303.png",
+          "caption": "Cool valorant dragon knife",
+          "year": "2026"
         }
       ]
     },
