@@ -91,6 +91,10 @@ window.PORTFOLIO = {
           "year": "2026"
         },
         {
+          "src": "assets/weapons/screenshot-2026-11-06-210447.png",
+          "caption": "Kuronami No Yaiba"
+        },
+        {
           "src": "assets/weapons/screenshot-2026-11-06-195054.png",
           "caption": "That one valorant wand",
           "year": "2026"
